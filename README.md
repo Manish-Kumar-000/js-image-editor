@@ -1,62 +1,28 @@
 # JS Image Editor
 
-A browser-based image editor built using **HTML, CSS, and Vanilla JavaScript**.  
-This project uses the **HTML5 Canvas API** to provide real-time image editing features directly in the browser.
+A simple web-based image editor built using HTML, CSS, and JavaScript.
 
-🔗 **Live Demo:**  
+This project allows users to upload an image, apply basic filters, crop, rotate, and download the edited image directly from the browser.
+
+## Live Demo
 https://manish-kumar-000.github.io/js-image-editor/
 
----
-
-## ✨ Features
-
-- Upload and preview images
-- Apply real-time filters:
-  - Brightness
-  - Contrast
-  - Saturation
-  - Blur
-  - Grayscale
-  - Sepia
-- Crop images with live preview
-- Rotate images (left / right)
-- Preset filters (Warm, Cool, Vintage, B&W)
+## Features
+- Upload image
+- Apply filters like brightness, contrast, saturation, blur, grayscale, and sepia
+- Crop image
+- Rotate image
+- Preset filters
 - Reset edits
 - Download edited image
-- Responsive layout
 
----
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- HTML5 Canvas
 
-## 🛠️ Built With
+## About
+This project was built to practice working with JavaScript, Canvas API, and DOM manipulation.
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6)**
-- **Canvas API**
-- **GitHub Pages** (for deployment)
-
----
-
-## 🧠 What I Learned
-
-- Working with the HTML5 Canvas API
-- Managing application state using JavaScript objects
-- Implementing image transformations (crop, rotate, filters)
-- Handling mouse events for interactive features
-- Structuring a front-end project cleanly
-- Deploying static websites using GitHub Pages
-
----
-
-## 🚀 Future Improvements
-
-- Undo / Redo functionality
-- Aspect ratio crop (1:1, 16:9)
-- Custom preset saving
-- Zoom and pan controls
-- Mobile UI improvements
-
----
-
-## 📂 Project Structure
-
+More features and improvements will be added over time.
