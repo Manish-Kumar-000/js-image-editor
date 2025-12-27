@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>JS Image Editor</title>
+
+  <!-- Remix Icons -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- MAIN CONTAINER -->
+  <main class="main">
+
+    <!-- ================= LEFT SIDE ================= -->
+    <section class="section left">
+
+      <!-- TOP ACTION BAR -->
+      <section class="section top">
+        <div class="actions">
+
+          <button class="btn btn-choose" id="chooseBtn">
+            Choose Image
+          </button>
+
+          <button class="btn btn-reset" id="reset">
+            Reset
+          </button>
+
+          <button class="btn btn-download" id="download">
+            Download
+          </button>
+
+          <!-- ROTATE BUTTONS -->
+          <button class="btn" id="rotateLeft">⟲ Rotate</button>
+          <button class="btn" id="rotateRight">⟳ Rotate</button>
+          <!-- CROP -->
+          <button class="btn" id="cropBtn">Crop</button>
+          <button class="btn" id="applyCrop">Apply Crop</button>
+
+
+          <!-- hidden file input -->
+          <input type="file" id="upload" accept="image/*" hidden />
+
+        </div>
+      </section>
+
+      <!-- IMAGE PREVIEW AREA -->
+      <section class="section bottom">
+        <div class="preview">
+          <div class="canvas-wrapper">
+
+            <!-- Placeholder -->
+            <div class="placeholder">
+              <i class="ri-image-line"></i>
+              <span>Image</span>
+            </div>
+
+            <!-- Canvas -->
+            <canvas id="canvas"></canvas>
+
+          </div>
+        </div>
+      </section>
+
+    </section>
+
+    <!-- ================= RIGHT SIDE ================= -->
+    <section class="section right">
+      <div class="controls">
+        <h3 class="controls-title">Filters</h3>
+
+        <!-- Filters will be injected by JS -->
+        
+        <div id="filters-container"></div>
+        <div class="presets">
+          
+          <button onclick="applyPreset('normal')">Normal</button>
+          <button onclick="applyPreset('warm')">Warm</button>
+          <button onclick="applyPreset('cool')">Cool</button>
+          <button onclick="applyPreset('vintage')">Vintage</button>
+          <button onclick="applyPreset('bw')">B & W</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>

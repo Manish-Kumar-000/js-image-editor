@@ -1,0 +1,42 @@
+:root {
+
+  /* ================= COLORS ================= */
+
+  /* Background */
+  --bg-primary: rgb(29, 28, 28);
+  --bg-secondary: rgb(42, 48, 45);
+  --bg-active: rgb(233, 233, 233);
+  --bg-danger: rgb(212, 39, 39);
+  --bg-success: rgb(22, 217, 12);
+
+  /* Text */
+  --text-primary: rgb(237, 237, 237);
+  --text-secondary: rgb(200, 200, 200);
+  --text-tertiary: rgb(150, 150, 150);
+  --text-active: rgb(55, 54, 54);
+
+  /* ================= SPACING ================= */
+
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+
+  /* ================= FONT SIZES ================= */
+
+  --font-sm: 0.875rem;
+  --font-md: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.25rem;
+  --font-2xl: 1.5rem;
+
+  /* ================= BORDER RADIUS ================= */
+
+  --radius-sm: 0.2rem;
+  --radius-md: 0.25rem;
+  --radius-lg: 0.3rem;
+  --radius-xl: 0.4rem;
+  --radius-2xl: 0.5rem;
+
+}
